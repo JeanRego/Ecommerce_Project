@@ -1,0 +1,39 @@
+pip install django-stdimage PI UNIVESP
+
+python -m venv venv
+
+cd venv/Script/activate
+
+pip install django
+
+pip install django-crispy-forms
+
+pip install pillow #FAZ UPLOAD E REDIMENCIONA IMAGENS
+
+pip install crispy-bootstrap4
+
+django-admin startproject loja .
+
+python manage.py startapp produto
+python manage.py startapp pedido
+python manage.py startapp perfil
+
+python manage.py check #VERIFICA SE ESTA TUDO CERTO
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+usuario:jean
+password do projeto: 123456
+
+python -m pip install django-debug-toolbar
+
+python manage.py makemigrations #FAZ A MIGRACAO DOS ATT PRO BANCO DE DADOS
+python manage.py migrate
+
+pip install crispy-bootstrap4
+
+
+
+python manage.py runserver
